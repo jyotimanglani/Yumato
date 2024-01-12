@@ -83,7 +83,7 @@ const settings = {
 
 const DeliveryCollections = () => {
   return (
-    <div className="delivery-colllection">
+    <div className="delivery-collections">
       <div className="max-width">
         <div className="collection-title">Eat what makes you happy</div>
         <Slider {...settings}>
