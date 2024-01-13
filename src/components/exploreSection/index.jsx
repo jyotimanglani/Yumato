@@ -1,13 +1,16 @@
-import "./exploreSection.css";
+import React from "react";
 import ExploreCard from "./exploreCard";
-const ExploreSection = ({ list, collectionName }) => {
+import "./exploreSection.css";
+
+const ExploreSection = ({ restaurants, collectionName }) => {
   return (
     <div className="max-width explore-section">
       <div className="collection-title">{collectionName}</div>
       <div className="explore-grid">
-        {list.map((restaurant, i) => {
-          return <ExploreCard restaurant={restaurant} i={i} />;
-        })}
+        {restaurants &&
+          restaurants.map((restaurant, i) => (
+            <ExploreCard restaurant={restaurant} key={i} />
+          ))}
       </div>
     </div>
   );
