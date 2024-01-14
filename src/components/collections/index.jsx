@@ -22,8 +22,8 @@ const Collection = ({ list }) => {
             Bengaluru, based on trends
           </div>
           <div className="collection-location">
-            <div>All Collections in Bangalore </div>
-            <i className="fa-solid fa-caret-right absolute-center"></i>
+            <div>All Collections in Bengaluru</div>
+            <i className="fa-solid fa-caret-right absolute-center "></i>
           </div>
         </div>
         <Slider {...settings}>

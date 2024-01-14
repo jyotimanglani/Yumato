@@ -6,6 +6,9 @@
     padding: 15px 0px 40px;
   }
   
+  
+
+
   .collection-subtitle-row {
     display: flex;
     justify-content: space-between;
@@ -22,7 +25,12 @@
     color: var(--zomato-red);
     display: flex;
   }
+
+  i{
+    margin: 4px;
+  }
   
+
   .collection-cover {
     height: 320px;
     width: 260px;
