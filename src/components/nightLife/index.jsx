@@ -1,7 +1,7 @@
 import React from "react";
 import "./nightLife.css";
 import Collection from "../collections";
-import { nightLife } from "../../data/nightlife";
+import { nightLife } from "../../data/nightLife";
 import Filters from "../filters";
 import ExploreSection from "../exploreSection";
 
