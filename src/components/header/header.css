@@ -5,10 +5,16 @@
     margin-bottom: 12px;
   }
   
-  .header-logo {
+  /* .header-logo {
     height: 27px;
     max-width: 140px;
     margin-right: 24px;
+  } */
+
+  .header-logo-text{
+    max-width: 140px;
+    margin-right: 24px;
+    font-style: bold;
   }
   
   .header-right {

@@ -1,7 +1,6 @@
-import React from "react";
-
+import "./footer.css"
 const Footer = () => {
-  return <div>Made with ❤️ by Jyoti Manglani</div>;
+  return <div className="footer max-width">Made with ❤️ by Jyoti Manglani</div>;
 };
 
 export default Footer;
